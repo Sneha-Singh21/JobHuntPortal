@@ -25,7 +25,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 
 const corsOptions = {
-  origin: "http://localhost:5173", // Your frontend URL
+  origin: "https://jobhuntportal-9gpn.onrender.com", // Your frontend URL
   credentials: true, // Allow credentials (cookies)
 };
 app.use(cors(corsOptions));
