@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ... */
+
+.scroll-container::-webkit-scrollbar {
+  width: 8px; /* Adjust the scrollbar width */
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background-color: #ad38c2; /* Purple scrollbar thumb */
+  border-radius: 50px; /* More rounded scrollbar thumb */
+}
+
+.scroll-container::-webkit-scrollbar-track {
+  background-color: #f0f0f0; /* Light background track */
+  border-radius: 10px; /* Slightly rounded track */
+}
+
+/* Apply global scrollbar styling */
+body::-webkit-scrollbar {
+  width: 8px; /* Adjust the scrollbar width */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #ad38c2; /* Purple scrollbar thumb */
+  border-radius: 50px; /* More rounded scrollbar thumb */
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #f0f0f0; /* Light background track */
+  border-radius: 10px; /* Slightly rounded track */
+}
+
